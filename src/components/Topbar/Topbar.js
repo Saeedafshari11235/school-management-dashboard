@@ -13,15 +13,15 @@ export default function Topbar() {
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
-            <IoMdNotificationsOutline size={35} />
+            <IoMdNotificationsOutline />
           </div>
           <div className="topbarIconContainer">
-            <MdLanguage size={34} />
+            <MdLanguage />
           </div>
           <div className="topbarIconContainer">
-            <IoSettingsSharp size={32} />
+            <IoSettingsSharp />
           </div>
-          <img src="images/avatar.png" alt="avatar" className="topAvatar"/>
+          <img src="images/avatar.png" alt="avatar" className="topAvatar" />
         </div>
       </div>
     </div>
