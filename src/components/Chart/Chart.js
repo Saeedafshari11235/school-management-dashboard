@@ -7,6 +7,7 @@ import {
   Tooltip,
   XAxis,
 } from "recharts";
+import "./Chart.css"
 
 export default function Chart({ title, data, datakey, grid }) {
   return (
