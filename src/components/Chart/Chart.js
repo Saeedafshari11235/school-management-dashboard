@@ -16,7 +16,7 @@ export default function Chart({ title, data, datakey, grid }) {
       <ResponsiveContainer width="100%" aspect={4}>
         <LineChart data={data}>
           <XAxis dataKey="month" stroke="#5550bd"></XAxis>
-          <Line dataKey={datakey} stroke="#5550bd"></Line>
+          <Line type="monotone" dataKey={datakey} stroke="#5550bd"></Line>
           <Tooltip />
           {grid && <CartesianGrid stroke="#e0dfdf" strokeDasharray="10" />}
         </LineChart>
