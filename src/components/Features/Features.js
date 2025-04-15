@@ -10,7 +10,7 @@ export default function Features() {
         <div className="featurecontainer">
           <span className="featureprice">$2,415</span>
           <span className="featurerate">
-            -11.4
+            -11.4%
             <FaArrowDown className="featureicon fall" />
           </span>
         </div>
@@ -21,7 +21,7 @@ export default function Features() {
         <div className="featurecontainer">
           <span className="featureprice">$4,415</span>
           <span className="featurerate">
-            -1.4
+            -1.4%
             <FaArrowDown className="featureicon fall" />
           </span>
         </div>
@@ -32,7 +32,7 @@ export default function Features() {
         <div className="featurecontainer">
           <span className="featureprice">$2,225</span>
           <span className="featurerate">
-            +2.4
+            +2.4%
             <FaArrowUp className="featureicon" />
           </span>
         </div>
