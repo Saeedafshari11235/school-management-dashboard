@@ -13,4 +13,13 @@ let chartData = [
   { month: "Dec", sale: 2200 },
 ];
 
-export {chartData}
+let newMembers = [
+  { id: 1, username: "saeed", jobTitle: "developer" },
+  { id: 2, username: "amir", jobTitle: "developer" },
+  { id: 3, username: "mammad", jobTitle: "engineer" },
+  { id: 4, username: "saleh", jobTitle: "teacher" },
+  { id: 5, username: "hesam", jobTitle: "designer" },
+  { id: 6, username: "ali", jobTitle: "editor" },
+];
+
+export { chartData, newMembers };
