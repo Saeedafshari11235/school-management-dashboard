@@ -1,0 +1,59 @@
+.widgetsm{
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.widgetsmtitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetsmlist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetsmlistitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.widgetsmimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetsmuser{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetsmusername{
+    font-weight: 600;
+}
+
+.widgetsmusertitle{
+    font-weight: 400;
+}
+
+.widgetsmbutton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetsmicon{
+    font-size: 30px !important;
+}
