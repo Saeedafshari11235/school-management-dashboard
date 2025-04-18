@@ -22,4 +22,42 @@ let newMembers = [
   { id: 6, username: "ali", jobTitle: "editor" },
 ];
 
-export { chartData, newMembers };
+let userRows = [
+  {
+    id: 1,
+    username: "saeed",
+    status: "active",
+    transaction: "$120",
+    email: "sample@email.com",
+  },
+  {
+    id: 2,
+    username: "amir",
+    status: "non-active",
+    transaction: "$10",
+    email: "sample@email.com",
+  },
+  {
+    id: 3,
+    username: "saleh",
+    status: "active",
+    transaction: "$50",
+    email: "sample@email.com",
+  },
+  {
+    id: 4,
+    username: "ali",
+    status: "non-active",
+    transaction: "$1220",
+    email: "sample@email.com",
+  },
+  {
+    id: 5,
+    username: "mammad",
+    status: "non-active",
+    transaction: "$1020",
+    email: "sample@email.com",
+  },
+];
+
+export { chartData, newMembers, userRows };
