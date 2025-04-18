@@ -4,6 +4,7 @@ import Chart from "../../components/Chart/Chart";
 import "./Home.css";
 import { chartData } from "../../datas";
 import WidgetSm from "../../components/WidgetSm/WidgetSm";
+import WidgetLg from "../../components/WidgetLg/WidgetLg";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Chart grid title="Monthly sale" data={chartData} datakey="sale" />
       <div className="homewidget">
         <WidgetSm />
+        <WidgetLg />
       </div>
     </div>
   );
