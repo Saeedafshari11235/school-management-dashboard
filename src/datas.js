@@ -60,4 +60,13 @@ let userRows = [
   },
 ];
 
-export { chartData, newMembers, userRows };
+let products = [
+  { id: 1, title: "Asus", price: 900 },
+  { id: 2, title: "Acer", price: 234 },
+  { id: 3, title: "Dell", price: 850 },
+  { id: 4, title: "LOQ", price: 100 },
+  { id: 5, title: "Thinkpad", price: 220 },
+  { id: 6, title: "ROG", price: 987 },
+];
+
+export { chartData, newMembers, userRows, products };
